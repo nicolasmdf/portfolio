@@ -1,0 +1,101 @@
+body {
+  background-color: #CCCCCC;
+  margin-top: 50px;
+  font-family: Oregano;
+}  
+@media (max-width: 320px) {
+  body {
+    margin-top: 100px
+  }
+}
+.navbar {
+  background-color: #00CC99;
+  border-style: solid;
+  border-color: gray;
+}
+
+p {
+  font-family: Maiden Orange;
+}
+#about {
+background-image: url(http://www.cmapllc.com/wp-content/themes/bigmoney/images/bg/buenos-aires.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+}
+
+#text {
+ font-weight: bold;
+ background-color: #FFF;
+ opacity: 0.6;
+ margin: 10% auto;
+}
+
+#pic {
+margin: 5% auto;
+}
+
+#portfolio {
+background-image: url(http://wallpoper.com/images/00/34/16/84/landscapes-grayscale_00341684.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+padding: 10% 5%;
+}
+
+#contact {
+background-image: url(http://nominature.com/wp-content/uploads/2016/03/mountains-mountains-nature-clouds-fun-gallery.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+padding-top: 5%;
+}
+
+#thumb: {
+  padding: 10% auto;
+}
+#thumb:hover {
+  opacity: 0.6;
+  }
+
+#fbicon {
+  width: 8%;
+  border-radius: 50%;
+  margin: 10% 0 10% 90%;
+}
+#fbicon:hover {
+  opacity: 0.6;
+  }
+
+#twittericon {
+  width: 8%;
+  border-radius: 50%;
+  margin: 10% 50% 10% 0%;
+}
+#twittericon:hover {
+  opacity: 0.6;
+  }
+
+#linkedinicon {
+  width: 8%;
+  border-radius: 50%;
+  margin: 0% 0 10% 90%;
+}
+#linkedinicon:hover {
+  opacity: 0.6;
+  }
+
+#githubicon {
+  width: 8%;
+  border-radius: 50%;
+  margin: 0% 50% 10% 0%;
+}
+#githubicon:hover {
+  opacity: 0.6;
+  }
