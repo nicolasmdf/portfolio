@@ -57,7 +57,7 @@ h3 {
 .project-tile:hover {
   background: #FFF;
   animation-name: animation;
-	animation-duration: 0.2s;
+  animation-duration: 0.2s;
   font-weight: bold;
 }
 .project-tile a {
@@ -86,7 +86,7 @@ h3 {
 .contact-tile:hover {
   background: #FFF;
   animation-name: animation;
-	animation-duration: 0.2s;
+  animation-duration: 0.2s;
   font-weight: bold;
 }
 .contact-tile a {
