@@ -35,6 +35,7 @@
 h4 {
   padding-top: 20vh;
   text-align: center;
+  margin: 0;
 }
 #project-container {
   display: flex;
