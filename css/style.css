@@ -1,101 +1,104 @@
-body {
-  background-color: #CCCCCC;
-  margin-top: 50px;
-  font-family: Oregano;
-}  
-@media (max-width: 320px) {
-  body {
-    margin-top: 100px
-  }
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 7vh;
+  background: #C1E2FF;
+  z-index: 1;
+  text-align: center;
 }
-.navbar {
-  background-color: #00CC99;
-  border-style: solid;
-  border-color: gray;
+#navbar a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  padding: 0 1% 0 1%;
 }
-
-p {
-  font-family: Maiden Orange;
+#navbar a:hover {
+  background: #FFE2C1;
+  font-weight: bold;
+  box-shadow: 2px 2px 2px gray;
+  border-radius: 1%;
+  
 }
-#about {
-background-image: url(http://www.cmapllc.com/wp-content/themes/bigmoney/images/bg/buenos-aires.jpg);
-background-repeat: no-repeat;
-background-size: cover;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
+#welcome-section {
+  position: relative;
+  background: #C1E2FF;
+  height: 100vh;
 }
-
-#text {
- font-weight: bold;
- background-color: #FFF;
- opacity: 0.6;
- margin: 10% auto;
+#welcome-text {
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  width: 70%;
+  text-align: center;
 }
-
-#pic {
-margin: 5% auto;
+h4 {
+  padding-top: 20vh;
+  text-align: center;
 }
-
-#portfolio {
-background-image: url(http://wallpoper.com/images/00/34/16/84/landscapes-grayscale_00341684.jpg);
-background-repeat: no-repeat;
-background-size: cover;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-padding: 10% 5%;
+#project-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background: linear-gradient(180deg, white, #FFE2C1); 
 }
-
+.project-tile {
+  text-align: center;
+  margin: 2% 5% 0 5%;
+  width: 20%;
+  padding: 5% 0 5% 0;
+  background-color: #C1E2FF;
+  box-shadow: 2px 2px 2px gray;
+  border-radius: 1%;
+}
+.project-tile:hover {
+  background: #FFF;
+  animation-name: animation;
+	animation-duration: 0.2s;
+  font-weight: bold;
+}
+.project-tile a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
 #contact {
-background-image: url(http://nominature.com/wp-content/uploads/2016/03/mountains-mountains-nature-clouds-fun-gallery.jpg);
-background-repeat: no-repeat;
-background-size: cover;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-padding-top: 5%;
+  background-color: #FFE2C1;
+  height: 100vh;
 }
-
-#thumb: {
-  padding: 10% auto;
+#contacts-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-#thumb:hover {
-  opacity: 0.6;
+.contact-tile {
+  text-align: center;
+  background: #C1E2FF;
+  width: 20%;
+  box-shadow: 2px 2px 2px gray;
+  border-radius: 1%;
+  padding: 2% 1% 2% 1%;
+  margin: 2%;
+}
+.contact-tile:hover {
+  background: #FFF;
+  animation-name: animation;
+	animation-duration: 0.2s;
+  font-weight: bold;
+}
+.contact-tile a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+@media (max-width:700px) {
+  .project-tile, contact-tile {
+    width: 50%;
+    height: 50%;
   }
-
-#fbicon {
-  width: 8%;
-  border-radius: 50%;
-  margin: 10% 0 10% 90%;
 }
-#fbicon:hover {
-  opacity: 0.6;
-  }
-
-#twittericon {
-  width: 8%;
-  border-radius: 50%;
-  margin: 10% 50% 10% 0%;
+@keyframes animation {
+  from {transform: perspective(0px) translateZ(0px);}
+  to {transform: perspective(5000px) translateZ(200px);}
 }
-#twittericon:hover {
-  opacity: 0.6;
-  }
-
-#linkedinicon {
-  width: 8%;
-  border-radius: 50%;
-  margin: 0% 0 10% 90%;
-}
-#linkedinicon:hover {
-  opacity: 0.6;
-  }
-
-#githubicon {
-  width: 8%;
-  border-radius: 50%;
-  margin: 0% 50% 10% 0%;
-}
-#githubicon:hover {
-  opacity: 0.6;
-  }
