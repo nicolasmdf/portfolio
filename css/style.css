@@ -11,8 +11,7 @@
   text-decoration: none;
   color: black;
   text-transform: uppercase;
-  padding: 0 1% 0 1%;
-  height: 4vh;
+  padding: 1% 1% 0.5% 1%;
   font-family: 'Josefin Sans', sans-serif;
 }
 #navbar a:hover {
@@ -20,7 +19,6 @@
   font-weight: bold;
   box-shadow: 2px 2px 2px gray;
   border-radius: 1%;
-  height: 4vh;
   font-family: 'Josefin Sans', sans-serif;
 }
 #welcome-section {
@@ -52,6 +50,7 @@ h3 {
 }
 .project-tile {
   text-align: center;
+  text-decoration: none;
   margin: 2% 5% 0 5%;
   width: 20%;
   padding: 5% 0 5% 0;
@@ -59,19 +58,17 @@ h3 {
   box-shadow: 2px 2px 2px gray;
   border-radius: 1%;
   font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  color: black;
 }
 .project-tile:hover {
   background: #FFF;
   animation-name: animation;
   animation-duration: 0.2s;
+  color: black;
   font-weight: bold;
   font-family: 'Josefin Sans', sans-serif;
-}
-.project-tile a {
   text-decoration: none;
-  color: black;
-  text-transform: uppercase;
-  font-family: 'Josefin Sans', sans-serif;
 }
 #contact {
   background-color: #FFE2C1;
