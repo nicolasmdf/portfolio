@@ -1,6 +1,3 @@
-html {
-  font-family: 'Josefin Sans', sans-serif;
-}
 #navbar {
   position: fixed;
   top: 0;
@@ -16,13 +13,15 @@ html {
   text-transform: uppercase;
   padding: 0 1% 0 1%;
   height: 100%;
+  font-family: 'Josefin Sans', sans-serif;
 }
 #navbar a:hover {
   background: #FFE2C1;
   font-weight: bold;
   box-shadow: 2px 2px 2px gray;
   border-radius: 1%;
-  height: 100%;  
+  height: 100%;
+  font-family: 'Josefin Sans', sans-serif;
 }
 #welcome-section {
   position: relative;
@@ -35,12 +34,14 @@ html {
   left: 15%;
   width: 70%;
   text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
 }
 h3 {
   padding-top: 20vh;
   text-align: center;
   margin-top: 0px;
   margin-bottom: 0px;
+  font-family: 'Josefin Sans', sans-serif;
 }
 #project-container {
   display: flex;
@@ -57,21 +58,25 @@ h3 {
   background-color: #C1E2FF;
   box-shadow: 2px 2px 2px gray;
   border-radius: 1%;
+  font-family: 'Josefin Sans', sans-serif;
 }
 .project-tile:hover {
   background: #FFF;
   animation-name: animation;
   animation-duration: 0.2s;
   font-weight: bold;
+  font-family: 'Josefin Sans', sans-serif;
 }
 .project-tile a {
   text-decoration: none;
   color: black;
   text-transform: uppercase;
+  font-family: 'Josefin Sans', sans-serif;
 }
 #contact {
   background-color: #FFE2C1;
   height: 100vh;
+  font-family: 'Josefin Sans', sans-serif;
 }
 #contacts-container {
   display: flex;
@@ -86,17 +91,20 @@ h3 {
   border-radius: 1%;
   padding: 2% 1% 2% 1%;
   margin: 2%;
+  font-family: 'Josefin Sans', sans-serif;
 }
 .contact-tile:hover {
   background: #FFF;
   animation-name: animation;
   animation-duration: 0.2s;
   font-weight: bold;
+  font-family: 'Josefin Sans', sans-serif;
 }
 .contact-tile a {
   text-decoration: none;
   color: black;
   text-transform: uppercase;
+  font-family: 'Josefin Sans', sans-serif;
 }
 @media (max-width:700px) {
   .project-tile, contact-tile {
