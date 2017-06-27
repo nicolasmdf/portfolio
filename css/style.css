@@ -3,7 +3,7 @@
   top: 0;
   width: 100%;
   height: 16px;
-  background: #C1E2FF;
+  background: #647C88;
   z-index: 1;
   text-align: center;
 }
@@ -15,7 +15,7 @@
   font-family: 'Josefin Sans', sans-serif;
 }
 #navbar a:hover {
-  background: #FFE2C1;
+  background: #D7BB9A;
   font-weight: bold;
   box-shadow: 2px 2px 2px gray;
   border-radius: 1%;
@@ -23,7 +23,7 @@
 }
 #welcome-section {
   position: relative;
-  background: #C1E2FF;
+  background: #647C88;
   height: 100vh;
 }
 #welcome-text {
@@ -46,7 +46,7 @@ h3 {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  background: linear-gradient(180deg, white, #FFE2C1); 
+  background: linear-gradient(180deg, 647C88, #D7BB9A); 
 }
 .project-tile {
   text-align: center;
@@ -54,7 +54,7 @@ h3 {
   margin: 2% 5% 0 5%;
   width: 20%;
   padding: 5% 0 5% 0;
-  background-color: #C1E2FF;
+  background-color: #647C88;
   box-shadow: 2px 2px 2px gray;
   border-radius: 1%;
   font-family: 'Josefin Sans', sans-serif;
@@ -71,7 +71,7 @@ h3 {
   text-decoration: none;
 }
 #contact {
-  background-color: #FFE2C1;
+  background-color: #D7BB9A;
   height: 100vh;
   font-family: 'Josefin Sans', sans-serif;
 }
@@ -82,7 +82,7 @@ h3 {
 }
 .contact-tile {
   text-align: center;
-  background: #C1E2FF;
+  background: #647C88;
   width: 20%;
   box-shadow: 2px 2px 2px gray;
   border-radius: 1%;
