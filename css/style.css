@@ -46,7 +46,7 @@ h3 {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  background: linear-gradient(180deg, 647C88, #D7BB9A); 
+  background: linear-gradient(180deg, #647C88, #D7BB9A); 
 }
 .project-tile {
   text-align: center;
