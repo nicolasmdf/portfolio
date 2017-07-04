@@ -3,7 +3,7 @@
   top: 0;
   width: 100%;
   height: 16px;
-  background: #A0B084;
+  background: #8DF911;
   z-index: 1;
   text-align: center;
 }
@@ -23,7 +23,7 @@
 }
 #welcome-section {
   position: relative;
-  background: #A0B084;
+  background: #8DF911;
   height: 100vh;
 }
 #welcome-text {
@@ -42,7 +42,7 @@ h3 {
   font-family: 'Josefin Sans', sans-serif;
 }
 #projects {
-  background: linear-gradient(180deg, #A0B084, #A57C65); 
+  background: linear-gradient(180deg, #8DF911, #A57C65); 
 }
 #project-container {
   display: flex;
@@ -56,7 +56,7 @@ h3 {
   margin: 2% 5% 0 5%;
   width: 20%;
   padding: 5% 0 5% 0;
-  background-color: #A0B084;
+  background-color: #8DF911;
   box-shadow: 2px 2px 2px gray;
   border-radius: 1%;
   font-family: 'Josefin Sans', sans-serif;
@@ -84,7 +84,7 @@ h3 {
 }
 .contact-tile {
   text-align: center;
-  background: #A0B084;
+  background: #8DF911;
   width: 20%;
   box-shadow: 2px 2px 2px gray;
   border-radius: 1%;
