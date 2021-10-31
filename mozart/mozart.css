@@ -1,52 +1,46 @@
-.header {
-    font-size: 90%;
-    text-align: center;
-    width: 0 auto;
-    background-color: lightblue;
-  }  
-  .pic {
-    width: 80%;
-    height: 80%;
-  }
-  .picture {
-    background-color: #DDD;
-    width: 70%;
-    align: center;
-    border-radius: 5%;
-    margin: 0 15% 0 15%;
-    text-align: center;
-    img: responsive;
-    display: block;
-  }
-  .row {
-    align: center;
-  }
-  .head {
-    text-align: center;
-    margin: auto;
-    font-size: 150%;
-    font-weight: bold;
-  }
-  .anecdote {
-    
-  }
-  .quotes {
-    font-weight: bold;
-    font-style: italic;
-  }
-  .q1 {
-    width: 44%;
-    background-color: #C5A1BD;
-    border-width: 3%;
-    border-style: solid;
-    border-color: #000;
-    float: left;
-  }
-  .q2 {
-    width: 44%;
-    background-color: #C5A1BD;
-    border-width: 3%;
-    border-style: solid;
-    border-color: #000;
-    float: right;
-  }
+#header {
+  font-size: 80%;
+  text-align: center;
+  width: 50%;
+  height: 90%;
+  background-color: lightblue;
+  margin: 0 auto;
+}  
+#main {
+  margin: 0 auto;
+  width: 50%;
+}
+#img-div {
+  background-color: #DDD;
+  width: 50%;
+  border-radius: 5%;
+  margin: 0 auto;
+  text-align: center;
+}
+#image {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+#img-caption {
+  font-size: 1.2vw;
+}
+#quotes {
+  font-weight: bold;
+  font-style: italic;
+  position: relative;
+}
+#q1 {
+  position: absolute;
+  width: 48%;
+  background-color: lightblue;
+  border: 3px solid black;
+  left: 0;
+}
+#q2 {
+  position: absolute;
+  width: 48%;
+  background-color: lightblue;
+  border: 3px solid black;
+  right: 0;
+}
