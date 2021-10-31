@@ -1,0 +1,52 @@
+.header {
+    font-size: 90%;
+    text-align: center;
+    width: 0 auto;
+    background-color: lightblue;
+  }  
+  .pic {
+    width: 80%;
+    height: 80%;
+  }
+  .picture {
+    background-color: #DDD;
+    width: 70%;
+    align: center;
+    border-radius: 5%;
+    margin: 0 15% 0 15%;
+    text-align: center;
+    img: responsive;
+    display: block;
+  }
+  .row {
+    align: center;
+  }
+  .head {
+    text-align: center;
+    margin: auto;
+    font-size: 150%;
+    font-weight: bold;
+  }
+  .anecdote {
+    
+  }
+  .quotes {
+    font-weight: bold;
+    font-style: italic;
+  }
+  .q1 {
+    width: 44%;
+    background-color: #C5A1BD;
+    border-width: 3%;
+    border-style: solid;
+    border-color: #000;
+    float: left;
+  }
+  .q2 {
+    width: 44%;
+    background-color: #C5A1BD;
+    border-width: 3%;
+    border-style: solid;
+    border-color: #000;
+    float: right;
+  }
