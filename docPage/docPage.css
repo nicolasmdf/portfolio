@@ -1,0 +1,45 @@
+header {
+    font-size: 2.2vw;
+    margin-bottom: 1vw;
+  }
+  #navbar {
+    width: 20%;
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+    padding-left: 2%;
+  }
+  .nav-link {
+    border-top: 1px solid black;
+    text-decoration: none;
+  }
+  #main-doc {
+    width: 76%;
+    position: absolute;
+    right: 0;
+    height: 100%;
+    overflow: auto;
+    border-left: 3px solid grey;
+    margin: 0 auto;
+    padding-left: 4px;
+  }
+  @media (max-width:900px) {
+    #main-doc {
+      width: 100%;
+      margin: 0 auto;
+      position: relative;
+      overflow: visible;
+    }
+    #navbar {
+      width: 100%;
+      margin: 0 auto;
+      position: relative;
+      overflow: visible;
+      text-align: center;
+      border: 3px solid black;
+      padding: 0;
+    }
+    header {
+    font-size: 2.5vw;
+    }
+  }
