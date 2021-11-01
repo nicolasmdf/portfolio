@@ -1,0 +1,39 @@
+body {
+    background-color: #00acdd;
+    font-family: 'Cormorant SC', serif;
+  }
+  #graph {
+    text-align: center;
+    background-color: white;
+    width: 97%;
+    margin: 1% auto;
+    box-shadow: 2px 2px 2px grey;
+  }
+  h1 {
+    text-transform: uppercase;
+  }
+  #tooltip {
+    display: none;
+    position: absolute;
+    width: 150px;
+    margin: 0 auto;
+    box-shadow: 1px 1px 8px black;
+    border-radius: 2px;
+    background-color: #00acdd;
+    opacity: 0.8;
+    font-size: 12px;
+  }
+  #legend {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+  }
+  .color {
+    width: 20%;
+  }
+  svg {
+    margin: 0 6% 0 6%;
+    width: 100%;
+  }
